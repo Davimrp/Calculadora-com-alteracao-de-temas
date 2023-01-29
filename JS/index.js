@@ -60,12 +60,14 @@ const calcular = () =>{
     }
 }
 
-const inserirOperador = (e) =>{
-    calcular()
-    numeroDigitado = parseFloat(tela.innerHTML);
-    operadorDigitado =  e.target.innerHTML;
-    novoNumero = true
-    operadorUsado.innerHTML = operadorDigitado;
+const inserirOperador = (e) => {
+    if (tela.innerHTML !== '') {
+        calcular()
+        numeroDigitado = parseFloat(tela.innerHTML);
+        operadorDigitado = e.target.innerHTML;
+        novoNumero = true
+        operadorUsado.innerHTML = operadorDigitado;
+    }
 }
 operadores.forEach((e)=> e.addEventListener('click', inserirOperador));
 
