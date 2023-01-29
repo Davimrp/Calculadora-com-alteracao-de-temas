@@ -16,12 +16,13 @@
 
 body{
     font-family: League Spartan;
-    background-color: hsl(222, 26%, 31%);
+    background-color: hsl(0, 0%, 90%);
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 
 main{
@@ -30,16 +31,19 @@ main{
 }
 
 .box1{
-    color: white;
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     font-size: 0.6rem;
     height: 20px;
 }
+.box1 h1{
+    font-size: 1.7rem;
+}
 
 .numeros{
-    color: white;
+    color: black;
     width: 425px;
     font-size: 0.6rem;
     display: flex;
@@ -61,28 +65,29 @@ main{
     width: 70px;
     border-radius: 20px;
     margin-left: 20px;
-    background-color: hsl(224, 36%, 15%);
-    padding: 2px;
+    background-color: hsl(0, 5%, 81%);
+    padding: 3px;
 }
 .bola{
     display: flex;
-    height: 19px;
-    width: 20px;
+    height: 17px;
+    width: 17px;
     border-radius: 50%;
     background-color:   hsl(6, 63%, 50%);
+    margin-left: 23px;
 }
 
 .box2{
     height: 20%;
     margin-top: 25px;
     border-radius: 10px;
-    background-color: hsl(223, 36%, 10%);
-    color: white;
+    background-color: whitesmoke;
+    color: hsl(60, 10%, 19%);
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding-right: 20px;
-    font-size: 2.5rem;
+    font-size: 3rem;
 
 }
 
@@ -90,11 +95,7 @@ main{
     height: 65%;
     margin-top: 25px;
     border-radius: 10px;
-    background-color: hsl(223, 31%, 20%);
-}
-
-.box3{
-    background-color: var(--cor2);
+    background-color: hsl(0, 5%, 81%);;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -106,7 +107,7 @@ button{
     border: none;
     color: hsl(60, 10%, 19%);
     background-color: rgb(226, 226, 216);
-    box-shadow: 1px 1px 2px gray;
+    box-shadow: 0px 3px 0px gray;
     font-weight: 700;
 }
 #button-reset{
@@ -114,20 +115,20 @@ button{
     grid-column-end: 3;
     font-size: 1.3rem;
     color: white;
-    background-color: hsl(225, 21%, 49%);
-    box-shadow: 1px 1px 2px hsl(225, 20%, 38%);
+    background-color: hsl(181, 32%, 38%);
+    box-shadow: 0px 3px 0px hsl(225, 20%, 38%);
     height: 63%;
 }
 #button-igual{
     grid-column-start: 3;
     grid-column-end: 5;
     height: 63%;
-    background-color: hsl(6, 63%, 50%);
-    box-shadow: 1px 1px 2px hsl(6, 51%, 41%);
+    background-color: hsl(22, 71%, 46%);
+    box-shadow: 0px 3px 0px hsla(22, 72%, 17%, 0.397);
     color: white;
 }
 #button-del{
-    background-color: hsl(225, 21%, 49%);
+    background-color: hsl(181, 32%, 38%);
     color: white;
     font-size: 1.3rem;
 }
@@ -138,12 +139,12 @@ button{
     background-color: rgb(255, 255, 255);
 }
 #button-reset:hover, #button-del:hover{
-    background-color: hsl(225, 29%, 59%);
+    background-color: hsl(181, 36%, 54%);
     cursor: pointer;
 }
 #button-igual:hover{
     cursor: pointer;
-    background-color: hsl(6, 70%, 59%);
+    background-color: hsl(22, 91%, 58%);
 }
 .bola:hover{
     cursor: pointer;
