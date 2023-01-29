@@ -150,17 +150,7 @@ button{
     cursor: pointer;
 }
 
-@media screen and (max-width: 425px) {
-    body{
-        font-family: League Spartan;
-        background-color: hsl(222, 26%, 31%);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100vw;
-        height: 100vh;
-    }
-    
+@media screen and (max-width: 425px) { 
     main{
         width: 350px;
         height: 630px;
