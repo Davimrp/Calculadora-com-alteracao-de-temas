@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="CSS/theme1.css" id="temaAtual">
   <title>Calculadora com Temas</title>
 
 </head>
@@ -22,14 +22,15 @@
           <p>THEME</p>
         </div>
         <div class="button-theme">
-          <div class="barra">
+          <div class="barra" id="barra">
             <div class="bola"></div>
           </div>
         </div>
       </div>
     </div>
     <div class="box2">
-      <p>222</p>
+      <p id="sinal"></p>
+      <p id="screen"></p>
     </div>
     <div class="box3">
       <button class="tecla 7">7</button>
@@ -52,5 +53,7 @@
       <button id="button-igual">=</button>
     </div>
   </main>
+
+  <script src="JS/index.js"></script>
 </body>
 </html>
