@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 body{
@@ -88,7 +89,13 @@ main{
     justify-content: flex-end;
     padding-right: 20px;
     font-size: 3rem;
-
+    display: flex;
+    justify-content: space-between;
+}
+#sinal{
+    margin: 0 0 90px 10px;
+    font-size: 1.4rem;
+    color: rgba(7, 7, 7, 0.815);
 }
 
 .box3{
@@ -102,7 +109,7 @@ main{
 
 button{
     font-size: 1.7rem;
-    margin: 12px;
+    margin: 12px 10px 12px 10px;
     border-radius: 10px;
     border: none;
     color: hsl(60, 10%, 19%);
@@ -146,7 +153,7 @@ button{
     cursor: pointer;
     background-color: hsl(22, 91%, 58%);
 }
-.bola:hover{
+.barra:hover{
     cursor: pointer;
 }
 

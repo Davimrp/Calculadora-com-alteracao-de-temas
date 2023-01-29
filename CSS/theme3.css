@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 body{
@@ -88,7 +89,13 @@ main{
     justify-content: flex-end;
     padding-right: 20px;
     font-size: 3rem;
-
+    display: flex;
+    justify-content: space-between;
+}
+#sinal{
+    margin: 0 0 90px 10px;
+    font-size: 1.4rem;
+    color: white;
 }
 
 .box3{
@@ -102,7 +109,7 @@ main{
 
 button{
     font-size: 1.7rem;
-    margin: 12px;
+    margin: 12px 10px 12px 10px;
     border-radius: 10px;
     border: none;
     color: hsl(52, 100%, 62%);
@@ -137,17 +144,17 @@ button{
 /* Hover*/
 .tecla:hover, .operador:hover{
     cursor: pointer;
-    background-color: rgb(255, 255, 255);
+    background-color: hsl(268, 40%, 37%);;
 }
 #button-reset:hover, #button-del:hover{
-    background-color: hsl(181, 36%, 54%);
+    background-color: hsl(281, 76%, 35%);
     cursor: pointer;
 }
 #button-igual:hover{
     cursor: pointer;
-    background-color: hsl(22, 91%, 58%);
+    background-color: hsl(176, 78%, 75%);
 }
-.bola:hover{
+.barra:hover{
     cursor: pointer;
 }
 

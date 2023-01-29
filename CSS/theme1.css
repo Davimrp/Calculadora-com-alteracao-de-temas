@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 body{
@@ -85,9 +86,15 @@ main{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 20px;
+    padding: 20px;
     font-size: 3rem;
-
+    display: flex;
+    justify-content: space-between;
+}
+#sinal{
+    margin: 0 0 90px -10px;
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.548);
 }
 
 .box3{
@@ -101,12 +108,12 @@ main{
 
 button{
     font-size: 1.7rem;
-    margin: 12px;
+    margin: 12px 10px 12px 10px;
     border-radius: 10px;
     border: none;
     color: hsl(60, 10%, 19%);
     background-color: rgb(226, 226, 216);
-    box-shadow: 0px 3px 0px gray;
+    box-shadow: 0px 3px 0px hsl(28, 16%, 65%);
     font-weight: 700;
 }
 #button-reset{
@@ -115,7 +122,7 @@ button{
     font-size: 1.3rem;
     color: white;
     background-color: hsl(225, 21%, 49%);
-    box-shadow: 0px 3px 0px hsl(225, 20%, 38%);
+    box-shadow: 0px 3px 0px hsl(224, 28%, 35%);
     height: 63%;
 }
 #button-igual{
@@ -123,13 +130,14 @@ button{
     grid-column-end: 5;
     height: 63%;
     background-color: hsl(6, 63%, 50%);
-    box-shadow: 0px 3px 0px hsl(6, 51%, 41%);
+    box-shadow: 0px 3px 0px hsl(6, 70%, 34%);
     color: white;
 }
 #button-del{
     background-color: hsl(225, 21%, 49%);
     color: white;
     font-size: 1.3rem;
+    box-shadow: 0px 3px 0px hsl(224, 28%, 35%);
 }
 
 /* Hover*/
@@ -145,7 +153,7 @@ button{
     cursor: pointer;
     background-color: hsl(6, 70%, 59%);
 }
-.bola:hover{
+.barra:hover{
     cursor: pointer;
 }
 
