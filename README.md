@@ -12,7 +12,7 @@
 ### 🛠️ Construído com
 
 > HTML5
- CSS 3 e
+ CSS3 e
  JavaScript Puro
  <hr>
  
